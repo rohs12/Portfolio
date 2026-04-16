@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rohan Singh – Finance Professional</title>
+  <title>Rohan Singh – Financial Analyst</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --navy:   #0d1b2a;
-      --navy2:  #1b2d42;
-      --gold:   #c9a84c;
-      --gold2:  #e8c97a;
+      --navy:   #141414;
+      --navy2:  #1c1c1c;
+      --gold:   #d4a843;
+      --gold2:  #f0c84a;
       --white:  #f8f9fa;
       --gray:   #6c757d;
       --light:  #eef1f5;
@@ -32,7 +32,7 @@
     /* ── NAV ── */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      background: rgba(13,27,42,0.96);
+      background: rgba(14,14,14,0.97);
       backdrop-filter: blur(10px);
       display: flex; align-items: center; justify-content: space-between;
       padding: 0 6vw;
@@ -54,7 +54,9 @@
     /* ── HERO ── */
     #hero {
       min-height: 100vh;
-      background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 60%, #243b55 100%);
+      background:
+        linear-gradient(135deg, rgba(14,14,14,0.88) 0%, rgba(20,20,20,0.84) 60%, rgba(28,28,28,0.80) 100%),
+        url('portfolio_background_charcoal_gold.svg') center / cover no-repeat;
       display: flex; align-items: center;
       padding: 100px 6vw 60px;
       position: relative; overflow: hidden;
@@ -258,8 +260,8 @@
     .project-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
     .project-tag {
       font-size: 0.7rem; font-weight: 600; letter-spacing: 0.03em;
-      background: rgba(13,27,42,0.06); color: var(--navy);
-      border: 1px solid rgba(13,27,42,0.12);
+      background: rgba(14,14,14,0.06); color: var(--navy);
+      border: 1px solid rgba(14,14,14,0.12);
       padding: 3px 10px; border-radius: 20px;
     }
     .project-metrics {
@@ -435,7 +437,7 @@
     }
     .skill-tag:hover { background: var(--navy); color: var(--gold); border-color: var(--navy); }
     .skill-tag.tech {
-      background: rgba(13,27,42,0.05); border-color: rgba(13,27,42,0.2);
+      background: rgba(14,14,14,0.05); border-color: rgba(14,14,14,0.2);
     }
     .skill-tag.tech:hover { background: var(--navy); color: var(--gold2); border-color: var(--navy); }
 
@@ -867,15 +869,12 @@
       <div class="skill-group">
         <p class="skill-group-title">Finance Skills</p>
         <div class="skill-tags">
-          <span class="skill-tag">Pricing &amp; Profitability Analysis</span>
           <span class="skill-tag">Revenue Budgeting &amp; Forecasting</span>
           <span class="skill-tag">Annual Business Planning</span>
-          <span class="skill-tag">Credit Risk Analysis &amp; Modeling</span>
           <span class="skill-tag">Rate &amp; Productivity Analysis</span>
           <span class="skill-tag">Financial Statement &amp; Ratio Analysis</span>
           <span class="skill-tag">Variance Analysis &amp; Scenario Modeling</span>
           <span class="skill-tag">KPI Reporting &amp; Performance Monitoring</span>
-          <span class="skill-tag">Scenario &amp; Sensitivity Analysis </span>
           <span class="skill-tag">Executive-Level Presentations</span>
           <span class="skill-tag">External Benchmarking</span>
           <span class="skill-tag">Ad Hoc &amp; Recurring Reporting</span>
@@ -892,17 +891,13 @@
           <span class="skill-tag tech">SQL</span>
           <span class="skill-tag tech">Tableau</span>
           <span class="skill-tag tech">Python</span>
-          <span class="skill-tag tech">SAP Cloud Analytics</span>
-            <span class="skill-tag tech">SAP</span>
+          <span class="skill-tag tech">SAP</span>
           <span class="skill-tag tech">Oracle ERP</span>
           <span class="skill-tag tech">Dashboard Development</span>
           <span class="skill-tag tech">Self-Serve BI Reporting</span>
           <span class="skill-tag tech">Financial Modeling</span>
           <span class="skill-tag tech">Data Validation &amp; Reconciliation</span>
-          <span class="skill-tag tech">Workflow Automation</span>
-          <span class="skill-tag tech">Data Transformation</span>
-          <span class="skill-tag tech">Reconciliation Automation</span>
-          <span class="skill-tag tech">AI Tools / LLMs (GPT, Claude, Microsoft Co-Pilot)</span>
+          <span class="skill-tag tech">Document Management</span>
         </div>
       </div>
     </div>
